@@ -1,0 +1,77 @@
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+    flex: 1;
+    background-color: #f8f8f8;
+    /* Используйте относительный путь без кавычек */
+    background-image: url('/static/back.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container {
+  max-width: 960px;
+}
+
+textarea {
+  height: 250px;
+}
+
+.error-message {
+  color: black;          
+  font-weight: 600;    
+}
+
+.text_h2 {
+  color: black;          
+  font-weight: 600;    
+}
+
+.btn-gray {
+    background-color: gray; /* Серый цвет */
+    color: white; /* Белый цвет текста */
+}
+
+.btn-gray:hover {
+    background-color: black; /* Черный цвет при наведении */
+    color: white; /* Белый цвет текста при наведении */
+}
+
+.btn-gray {
+    background-color: gray; /* Серый цвет */
+    color: white; /* Белый цвет текста */
+}
+
+.btn-gray:hover {
+    background-color: black; /* Черный цвет при наведении */
+    color: white; /* Белый цвет текста при наведении */
+}
+
+label {
+    font-weight: bold; /* Жирный текст */
+    font-size: 1.2rem; /* Увеличенный размер шрифта */
+}
+
+.form-control {
+    border: 1px solid black; /* Черная обводка */
+}
+
+.form-control {
+    border: 1px solid black; /* Черная обводка */
+}
+
+.form-control:focus {
+    border-color: black; /* Обводка при фокусе */
+    box-shadow: none; /* Убираем стандартную тень Bootstrap */
+}
+
+.form-control:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Черная тень при наведении */
+    border-color: black; /* Обводка при наведении */
+}
